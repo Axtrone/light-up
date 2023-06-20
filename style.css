@@ -1,0 +1,71 @@
+body{
+    background-color: lavender;
+}
+td{
+    width: 55px;
+    height: 55px;
+    border: 1px solid rgb(131, 120, 120);
+}
+.lead{
+    font-weight: 390;
+}
+
+/*Full kinézet*/
+.keretes{
+    border: 2px solid rgb(71, 70, 70);
+    border-radius: 30px;
+    padding: 30px;
+    margin: 0px;
+    background-color: white;
+}
+
+/*Cella variációk*/
+.lit{
+    background-color: #dbd379;
+}
+.bulb{
+    background-color: #dbd379;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 22px;
+}
+.dark{
+    color: white;
+    background-color: black;
+    font-size: 22px;
+}
+.white{
+    background-color: whitesmoke;
+}
+.wrong{
+    background-color: lightcoral;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 22px;
+}
+.good{
+    color: rgb(116, 187, 116);
+    background-color: black;
+    font-size: 22px;
+    font-weight: 600;
+}
+table{
+    border: 3px solid black;
+    border-collapse: collapse;
+    padding: 0px;
+}
+
+/* Mobil nézet tiltása */
+@media(max-width: 666px)  { 
+	#mapSelect{ 
+ 		display: none;
+    }
+    h1::after{
+        display: block;
+        content: "Mobilos nézet fejlesztés alatt";
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600;
+        margin-top: 50px;
+        text-align: center;
+    }
+} 
